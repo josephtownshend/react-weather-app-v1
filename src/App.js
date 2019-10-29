@@ -53,12 +53,13 @@ export default class App extends React.Component {
         <Titles />
         <Form getWeather={this.getWeather}/>
         <Weather
-        temperature={this.state.temperature}
-        city={this.state.city}
-        country={this.state.country}
-        humidity={this.state.humidity}
-        description={this.state.description}
-        error={this.state.error}/>
+          temperature={this.state.temperature}
+          city={this.state.city}
+          country={this.state.country}
+          humidity={this.state.humidity}
+          description={this.state.description}
+          error={this.state.error}
+        />
       </div>
     );
   }
