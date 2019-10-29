@@ -4,6 +4,8 @@ import Form from './components/Form';
 import Weather from './components/Weather';
 
 
+const API_KEY = process.env.WEATHER_API_KEY;
+
 export default class App extends React.Component {
 
   render() {
